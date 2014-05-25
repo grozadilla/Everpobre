@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED682F3B166A28850056DE23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED682F3A166A28850056DE23 /* UIKit.framework */; };
+		ED682F3D166A28850056DE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED682F3C166A28850056DE23 /* Foundation.framework */; };
+		ED682F3F166A28850056DE23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED682F3E166A28850056DE23 /* CoreGraphics.framework */; };
+		ED682F41166A28850056DE23 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED682F40166A28850056DE23 /* CoreData.framework */; };
+		ED682F47166A28850056DE23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED682F45166A28850056DE23 /* InfoPlist.strings */; };
+		ED682F49166A28850056DE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED682F48166A28850056DE23 /* main.m */; };
+		ED682F4D166A28850056DE23 /* ATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED682F4C166A28850056DE23 /* ATAppDelegate.m */; };
+		ED682F4F166A28850056DE23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED682F4E166A28850056DE23 /* Default.png */; };
+		ED682F51166A28850056DE23 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED682F50166A28850056DE23 /* Default@2x.png */; };
+		ED682F53166A28850056DE23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED682F52166A28850056DE23 /* Default-568h@2x.png */; };
+		ED682F56166A28850056DE23 /* Everpobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED682F54166A28850056DE23 /* Everpobre.xcdatamodeld */; };
+		ED682F61166A2D6D0056DE23 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = ED682F60166A2D6D0056DE23 /* Note.m */; };
+		ED682F67166A572D0056DE23 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED682F66166A572D0056DE23 /* CoreDataTableViewController.m */; };
+		ED682F6A166A58830056DE23 /* ATNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED682F69166A58830056DE23 /* ATNotesViewController.m */; };
+		ED682F6D166A5C750056DE23 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED682F6C166A5C750056DE23 /* UIViewController+Navigation.m */; };
+		ED991F5D166B565600C82C72 /* ATNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991F5B166B565600C82C72 /* ATNoteViewController.m */; };
+		ED991F5E166B565600C82C72 /* ATNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991F5C166B565600C82C72 /* ATNoteViewController.xib */; };
+		ED991F61166B5D8600C82C72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED991F60166B5D8600C82C72 /* QuartzCore.framework */; };
+		ED991F65166B776C00C82C72 /* ATPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991F63166B776C00C82C72 /* ATPhotoViewController.m */; };
+		ED991F66166B776C00C82C72 /* ATPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991F64166B776C00C82C72 /* ATPhotoViewController.xib */; };
+		ED991F7A166BA88100C82C72 /* _Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991F79166BA88100C82C72 /* _Notebook.m */; };
+		ED991F7D166BA88100C82C72 /* _Note.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991F7C166BA88100C82C72 /* _Note.m */; };
+		ED991F80166BA95500C82C72 /* Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991F7F166BA95500C82C72 /* Notebook.m */; };
+		ED991F83166BAA7C00C82C72 /* ATNotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991F82166BAA7C00C82C72 /* ATNotebookViewController.m */; };
+		F68DB28B1931D1020031677C /* ATCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F68DB28A1931D1020031677C /* ATCoreDataStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED682F36166A28850056DE23 /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED682F3A166A28850056DE23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED682F3C166A28850056DE23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED682F3E166A28850056DE23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED682F40166A28850056DE23 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ED682F44166A28850056DE23 /* Everpobre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Everpobre-Info.plist"; sourceTree = "<group>"; };
+		ED682F46166A28850056DE23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED682F48166A28850056DE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED682F4A166A28850056DE23 /* Everpobre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everpobre-Prefix.pch"; sourceTree = "<group>"; };
+		ED682F4B166A28850056DE23 /* ATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAppDelegate.h; sourceTree = "<group>"; };
+		ED682F4C166A28850056DE23 /* ATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAppDelegate.m; sourceTree = "<group>"; };
+		ED682F4E166A28850056DE23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED682F50166A28850056DE23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ED682F52166A28850056DE23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED682F55166A28850056DE23 /* Everpobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Everpobre.xcdatamodel; sourceTree = "<group>"; };
+		ED682F5F166A2D6D0056DE23 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		ED682F60166A2D6D0056DE23 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		ED682F65166A572D0056DE23 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		ED682F66166A572D0056DE23 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		ED682F68166A58830056DE23 /* ATNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNotesViewController.h; sourceTree = "<group>"; };
+		ED682F69166A58830056DE23 /* ATNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNotesViewController.m; sourceTree = "<group>"; };
+		ED682F6B166A5C750056DE23 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		ED682F6C166A5C750056DE23 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		ED991F5A166B565600C82C72 /* ATNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNoteViewController.h; sourceTree = "<group>"; };
+		ED991F5B166B565600C82C72 /* ATNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNoteViewController.m; sourceTree = "<group>"; };
+		ED991F5C166B565600C82C72 /* ATNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNoteViewController.xib; sourceTree = "<group>"; };
+		ED991F60166B5D8600C82C72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ED991F62166B776C00C82C72 /* ATPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATPhotoViewController.h; path = ../ATPhotoViewController.h; sourceTree = "<group>"; };
+		ED991F63166B776C00C82C72 /* ATPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATPhotoViewController.m; path = ../ATPhotoViewController.m; sourceTree = "<group>"; };
+		ED991F64166B776C00C82C72 /* ATPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ATPhotoViewController.xib; path = ../ATPhotoViewController.xib; sourceTree = "<group>"; };
+		ED991F78166BA88100C82C72 /* _Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Notebook.h; sourceTree = "<group>"; };
+		ED991F79166BA88100C82C72 /* _Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Notebook.m; sourceTree = "<group>"; };
+		ED991F7B166BA88100C82C72 /* _Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Note.h; sourceTree = "<group>"; };
+		ED991F7C166BA88100C82C72 /* _Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Note.m; sourceTree = "<group>"; };
+		ED991F7E166BA95500C82C72 /* Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notebook.h; sourceTree = "<group>"; };
+		ED991F7F166BA95500C82C72 /* Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notebook.m; sourceTree = "<group>"; };
+		ED991F81166BAA7C00C82C72 /* ATNotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNotebookViewController.h; sourceTree = "<group>"; };
+		ED991F82166BAA7C00C82C72 /* ATNotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNotebookViewController.m; sourceTree = "<group>"; };
+		ED991F84166BBE6400C82C72 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		F68DB2891931D1020031677C /* ATCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCoreDataStack.h; sourceTree = "<group>"; };
+		F68DB28A1931D1020031677C /* ATCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCoreDataStack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED682F33166A28850056DE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED991F61166B5D8600C82C72 /* QuartzCore.framework in Frameworks */,
+				ED682F3B166A28850056DE23 /* UIKit.framework in Frameworks */,
+				ED682F3D166A28850056DE23 /* Foundation.framework in Frameworks */,
+				ED682F3F166A28850056DE23 /* CoreGraphics.framework in Frameworks */,
+				ED682F41166A28850056DE23 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED682F2B166A28850056DE23 = {
+			isa = PBXGroup;
+			children = (
+				ED682F42166A28850056DE23 /* Everpobre */,
+				ED682F39166A28850056DE23 /* Frameworks */,
+				ED682F37166A28850056DE23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED682F37166A28850056DE23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED682F36166A28850056DE23 /* Everpobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED682F39166A28850056DE23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED991F60166B5D8600C82C72 /* QuartzCore.framework */,
+				ED682F3A166A28850056DE23 /* UIKit.framework */,
+				ED682F3C166A28850056DE23 /* Foundation.framework */,
+				ED682F3E166A28850056DE23 /* CoreGraphics.framework */,
+				ED682F40166A28850056DE23 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED682F42166A28850056DE23 /* Everpobre */ = {
+			isa = PBXGroup;
+			children = (
+				ED991F62166B776C00C82C72 /* ATPhotoViewController.h */,
+				ED991F63166B776C00C82C72 /* ATPhotoViewController.m */,
+				ED991F64166B776C00C82C72 /* ATPhotoViewController.xib */,
+				ED682F65166A572D0056DE23 /* CoreDataTableViewController.h */,
+				ED682F66166A572D0056DE23 /* CoreDataTableViewController.m */,
+				ED682F68166A58830056DE23 /* ATNotesViewController.h */,
+				ED682F69166A58830056DE23 /* ATNotesViewController.m */,
+				ED991F5A166B565600C82C72 /* ATNoteViewController.h */,
+				ED991F5B166B565600C82C72 /* ATNoteViewController.m */,
+				ED991F5C166B565600C82C72 /* ATNoteViewController.xib */,
+				ED682F4B166A28850056DE23 /* ATAppDelegate.h */,
+				ED682F4C166A28850056DE23 /* ATAppDelegate.m */,
+				ED682F54166A28850056DE23 /* Everpobre.xcdatamodeld */,
+				ED991F78166BA88100C82C72 /* _Notebook.h */,
+				ED991F79166BA88100C82C72 /* _Notebook.m */,
+				ED991F7B166BA88100C82C72 /* _Note.h */,
+				ED991F7C166BA88100C82C72 /* _Note.m */,
+				ED991F7E166BA95500C82C72 /* Notebook.h */,
+				ED991F7F166BA95500C82C72 /* Notebook.m */,
+				ED991F81166BAA7C00C82C72 /* ATNotebookViewController.h */,
+				ED991F82166BAA7C00C82C72 /* ATNotebookViewController.m */,
+				ED682F5F166A2D6D0056DE23 /* Note.h */,
+				ED682F60166A2D6D0056DE23 /* Note.m */,
+				ED682F43166A28850056DE23 /* Supporting Files */,
+				ED682F6E166A5C7A0056DE23 /* Categories */,
+				ED991F84166BBE6400C82C72 /* Settings.h */,
+				F68DB2891931D1020031677C /* ATCoreDataStack.h */,
+				F68DB28A1931D1020031677C /* ATCoreDataStack.m */,
+			);
+			path = Everpobre;
+			sourceTree = "<group>";
+		};
+		ED682F43166A28850056DE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED682F44166A28850056DE23 /* Everpobre-Info.plist */,
+				ED682F45166A28850056DE23 /* InfoPlist.strings */,
+				ED682F48166A28850056DE23 /* main.m */,
+				ED682F4A166A28850056DE23 /* Everpobre-Prefix.pch */,
+				ED682F4E166A28850056DE23 /* Default.png */,
+				ED682F50166A28850056DE23 /* Default@2x.png */,
+				ED682F52166A28850056DE23 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED682F6E166A5C7A0056DE23 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ED682F6B166A5C750056DE23 /* UIViewController+Navigation.h */,
+				ED682F6C166A5C750056DE23 /* UIViewController+Navigation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED682F35166A28850056DE23 /* Everpobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED682F59166A28850056DE23 /* Build configuration list for PBXNativeTarget "Everpobre" */;
+			buildPhases = (
+				ED682F32166A28850056DE23 /* Sources */,
+				ED682F33166A28850056DE23 /* Frameworks */,
+				ED682F34166A28850056DE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Everpobre;
+			productName = Everpobre;
+			productReference = ED682F36166A28850056DE23 /* Everpobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED682F2D166A28850056DE23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Agbo;
+			};
+			buildConfigurationList = ED682F30166A28850056DE23 /* Build configuration list for PBXProject "Everpobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED682F2B166A28850056DE23;
+			productRefGroup = ED682F37166A28850056DE23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED682F35166A28850056DE23 /* Everpobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED682F34166A28850056DE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED682F47166A28850056DE23 /* InfoPlist.strings in Resources */,
+				ED682F4F166A28850056DE23 /* Default.png in Resources */,
+				ED682F51166A28850056DE23 /* Default@2x.png in Resources */,
+				ED682F53166A28850056DE23 /* Default-568h@2x.png in Resources */,
+				ED991F5E166B565600C82C72 /* ATNoteViewController.xib in Resources */,
+				ED991F66166B776C00C82C72 /* ATPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED682F32166A28850056DE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED682F49166A28850056DE23 /* main.m in Sources */,
+				ED682F4D166A28850056DE23 /* ATAppDelegate.m in Sources */,
+				ED682F56166A28850056DE23 /* Everpobre.xcdatamodeld in Sources */,
+				ED682F61166A2D6D0056DE23 /* Note.m in Sources */,
+				ED682F67166A572D0056DE23 /* CoreDataTableViewController.m in Sources */,
+				ED682F6A166A58830056DE23 /* ATNotesViewController.m in Sources */,
+				F68DB28B1931D1020031677C /* ATCoreDataStack.m in Sources */,
+				ED682F6D166A5C750056DE23 /* UIViewController+Navigation.m in Sources */,
+				ED991F5D166B565600C82C72 /* ATNoteViewController.m in Sources */,
+				ED991F65166B776C00C82C72 /* ATPhotoViewController.m in Sources */,
+				ED991F7A166BA88100C82C72 /* _Notebook.m in Sources */,
+				ED991F7D166BA88100C82C72 /* _Note.m in Sources */,
+				ED991F80166BA95500C82C72 /* Notebook.m in Sources */,
+				ED991F83166BAA7C00C82C72 /* ATNotebookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED682F45166A28850056DE23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED682F46166A28850056DE23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED682F57166A28850056DE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED682F58166A28850056DE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED682F5A166A28850056DE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everpobre/Everpobre-Prefix.pch";
+				INFOPLIST_FILE = "Everpobre/Everpobre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED682F5B166A28850056DE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everpobre/Everpobre-Prefix.pch";
+				INFOPLIST_FILE = "Everpobre/Everpobre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED682F30166A28850056DE23 /* Build configuration list for PBXProject "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED682F57166A28850056DE23 /* Debug */,
+				ED682F58166A28850056DE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED682F59166A28850056DE23 /* Build configuration list for PBXNativeTarget "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED682F5A166A28850056DE23 /* Debug */,
+				ED682F5B166A28850056DE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED682F54166A28850056DE23 /* Everpobre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED682F55166A28850056DE23 /* Everpobre.xcdatamodel */,
+			);
+			currentVersion = ED682F55166A28850056DE23 /* Everpobre.xcdatamodel */;
+			path = Everpobre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED682F2D166A28850056DE23 /* Project object */;
+}
